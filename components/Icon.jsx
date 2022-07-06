@@ -15,10 +15,8 @@ const Icon = ({ iconRef, spin, className, viewBox, children }) => {
   useEffect(() => {
     if (mounted && iconRef) {
       if (spin) {
-        console.log("spinning")
         iconRef.current.style.animationPlayState = 'running'
       } else {
-        console.log("stopped")
         iconRef.current.style.animationPlayState = 'paused'
       }
     }

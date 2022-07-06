@@ -34,7 +34,6 @@ export default function Home() {
     setCurrentTrack(discography[0])
   }, [discography])
 
-  console.log(spin)
   return (
     <div className={styles.container}>
       <Head>
