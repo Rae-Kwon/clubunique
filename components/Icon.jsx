@@ -31,6 +31,8 @@ const Icon = ({ iconRef, spin, className, viewBox, children }) => {
         dataTheme={resolvedTheme}
         viewBox={viewBox}
         draw={iconSvg.draw}
+        title="Club Unique"
+        description="Club Unique Logo"
       />
     </div>
   )

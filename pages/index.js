@@ -6,6 +6,7 @@ import Discography from '../features/Home/components/DiscographyView'
 import Player from '../features/Home/components/Player'
 import ThemeSwitch from '../features/Home/components/ThemeSwitch'
 import styles from '../styles/Home.module.css'
+import SocialBar from '../features/Home/components/SocialBar'
 
 export default function Home() {
   const [spin, setSpin] = useState(false)
@@ -64,6 +65,7 @@ export default function Home() {
         <link rel="manifest" href="/favicons/site.webmanifest" />
       </Head>
       <nav className={styles.nav}>
+        <SocialBar />
         <ThemeSwitch />
       </nav>
       <main className={styles.main}>

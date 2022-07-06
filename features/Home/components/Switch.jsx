@@ -22,7 +22,12 @@ const Switch = () => {
 
   return (
     <label className={styles.switch}>
-      <input type="checkbox" checked={isSwitched} onChange={checkboxHandler} />
+      <input
+        aria-label="Theme Toggle"
+        type="checkbox"
+        checked={isSwitched}
+        onChange={checkboxHandler}
+      />
       <span className={`${styles.slider} ${styles.round}`}></span>
     </label>
   )
