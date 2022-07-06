@@ -6,15 +6,21 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "format": "prettier --write 'components' 'features' 'pages' 'styles'"
   },
   "dependencies": {
+    "framer-motion": "^6.3.16",
     "next": "12.2.0",
+    "next-themes": "^0.2.0",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-player": "^2.10.1",
+    "swiper": "^8.2.6"
   },
   "devDependencies": {
     "eslint": "8.18.0",
-    "eslint-config-next": "12.2.0"
+    "eslint-config-next": "12.2.0",
+    "prettier": "2.7.1"
   }
 }
